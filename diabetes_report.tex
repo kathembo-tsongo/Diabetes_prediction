@@ -1,0 +1,494 @@
+\documentclass[12pt]{report}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 1. PACKAGES
+% ─────────────────────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{times}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{fancyhdr}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 2. GLOBAL FORMATTING
+% ─────────────────────────────────────────────────────────────────────────────
+\doublespacing
+\graphicspath{{./images/}}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\cftsubsubsecnumwidth}{4em}
+
+% Dot leaders for TOC, LOF, LOT
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftfigleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cfttableader}{\cftdotfill{\cftdotsep}}
+
+% TOC title
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\normalsize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\setlength{\cftbeforetoctitleskip}{-30pt}
+\setlength{\cftaftertoctitleskip}{20pt}
+
+% LOF & LOT titles
+\renewcommand{\cftloftitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% LOF/LOT indent
+\setlength{\cftfigindent}{0pt}
+\setlength{\cfttabindent}{0pt}
+
+% Chapter & section heading format
+\titleformat{\chapter}[display]
+  {\normalfont\normalsize\bfseries\centering}
+  {\chaptertitlename\ \thechapter}{10pt}{\normalsize}
+\titleformat{\section}
+  {\normalfont\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+% TOC chapter font
+\renewcommand{\cftchapfont}{\normalsize\bfseries}
+\renewcommand{\cftchappagefont}{\normalsize\bfseries}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 3. COLORS — Black theme only
+% ─────────────────────────────────────────────────────────────────────────────
+\definecolor{tableheader}{RGB}{0, 0, 0}
+\definecolor{tablerowlight}{RGB}{220, 220, 220}
+\definecolor{tablerowwhite}{RGB}{245, 245, 245}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 4. COLUMN TYPES & HYPERREF
+% ─────────────────────────────────────────────────────────────────────────────
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 5. PAGE STYLE
+% ─────────────────────────────────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Diabetes Prediction --- Data Science Assignment}
+\lhead{MSIT $|$ Semester 2}
+\rfoot{Page \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% 6. CODE LISTING STYLE
+% ─────────────────────────────────────────────────────────────────────────────
+\lstdefinestyle{pythonstyle}{
+    backgroundcolor=\color{tablerowwhite},
+    commentstyle=\color{black!60},
+    keywordstyle=\bfseries,
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    numbers=left,
+    numberstyle=\tiny,
+    showstringspaces=false,
+    language=Python,
+    frame=single
+}
+\lstset{style=pythonstyle}
+
+% =============================================================================
+\begin{document}
+% =============================================================================
+
+% ─────────────────────────────────────────────────────────────────────────────
+% COVER PAGE — Strathmore University Style
+% ─────────────────────────────────────────────────────────────────────────────
+\begin{titlepage}
+    \thispagestyle{empty}
+    \begin{center}
+
+        % University Logo
+        \includegraphics[width=0.22\textwidth]{strathmore_logo.png}\\[0.8cm]
+
+        % University Name
+        \textbf{\large STRATHMORE UNIVERSITY}\\[0.2cm]
+        \textbf{\large SCHOOL OF COMPUTING AND ENGINEERING SCIENCES}\\[3cm]
+
+        % Assignment Title
+        \textbf{\large DIABETES PREDICTION USING MACHINE LEARNING:}\\[0.3cm]
+        \textbf{\large Application of complete data science concepts}\\[0.6cm]
+       
+
+        % By
+        BY\\[0.8cm]
+
+        % Student
+        \textbf{\large Kathembo Tsongo Dieudonne}\\[0.3cm]
+        \textbf{\large 112721}\\[3cm]
+
+        % Submission Statement
+        \textit{A Data Science Concepts Assignment Submitted in Partial}\\
+        \textit{Fulfillment of the Requirements for the Award of the}\\
+        \textit{Degree of Master of Science in Information Technology}\\
+
+        \vfill
+
+        % Location
+        NAIROBI, KENYA
+
+    \end{center}
+\end{titlepage}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% FRONT MATTER — Roman numerals
+% ─────────────────────────────────────────────────────────────────────────────
+\pagenumbering{roman}
+\setcounter{page}{2}
+\pagestyle{plain}
+
+% ── Table of Contents ────────────────────────────────────────────────────────
+\tableofcontents
+\newpage
+
+% ── List of Figures ──────────────────────────────────────────────────────────
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\newpage
+
+% ── List of Tables ───────────────────────────────────────────────────────────
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+\newpage
+
+% ── Table of Abbreviations ───────────────────────────────────────────────────
+\chapter*{Table of Abbreviations}
+\addcontentsline{toc}{chapter}{Table of Abbreviations}
+\addcontentsline{lot}{table}{Table of Abbreviations}
+
+\vspace{0.5em}
+\begin{center}
+\begin{longtable}{|p{3.2cm}|p{10.5cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Abbreviation}} &
+\textcolor{white}{\textbf{Description}} \\ \hline
+\endfirsthead
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Abbreviation}} &
+\textcolor{white}{\textbf{Description}} \\ \hline
+\endhead
+\hline
+\multicolumn{2}{|r|}{\small\textit{Continued on next page\ldots}} \\
+\endfoot
+\hline
+\endlastfoot
+\rowcolor{tablerowlight} ADAP   & Adaptive Learning Algorithm \\ \hline
+
+\end{longtable}
+\end{center}
+\newpage
+
+% =============================================================================
+% MAIN CONTENT — Arabic numerals
+% =============================================================================
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{fancy}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 1: PROBLEM FRAMING
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Problem Framing}
+
+This chapter frames the core problem addressed in this study. It
+provides a clear definition of the problem, identifies the stakeholders
+involved, explains the business and policy relevance, and situates the
+problem within its operational context.
+
+\section{Problem Definition}
+
+Non-communicable diseases represent one of the most pressing public
+health challenges of the 21st century, with diabetes mellitus among
+the most prevalent and rapidly growing. Diabetes mellitus is a chronic
+metabolic disorder that arises when the pancreas does not produce
+enough insulin, or when the body cannot effectively use the insulin it
+produces \citep{NIDDK2023}. Left undetected and untreated, chronically
+elevated blood glucose levels progressively damage organs and body
+systems, leading to severe complications including kidney failure,
+blindness, cardiovascular disease, stroke, and lower limb amputation.
+
+Despite the availability of effective diagnostic tools, a significant
+proportion of people living with diabetes remain undiagnosed ---
+often presenting to health facilities only at advanced stages of
+the disease when complications have already set in. This diagnostic
+gap represents both a clinical failure and a public health crisis,
+particularly in low- and middle-income countries where healthcare
+infrastructure and specialist capacity are limited.
+
+This study asks: \textbf{Can we build a machine learning model that
+accurately identifies whether a female patient aged 21 and above is at
+risk of diabetes, using only routine clinical measurements available
+at primary healthcare level?} The goal is to develop a binary
+classification model --- one that predicts either diabetic (1) or
+non-diabetic (0) --- that flags high-risk individuals early, enabling
+timely medical intervention before complications arise. Such a model
+could serve as a cost-effective, scalable screening tool in
+resource-constrained healthcare settings.
+
+\section{Stakeholders}
+
+The successful deployment and impact of a diabetes prediction model
+depends on the engagement of multiple stakeholders across the
+healthcare ecosystem. Table~\ref{tab:stakeholders} identifies the
+key stakeholders and their respective roles.
+
+\begin{table}[H]
+\centering
+\caption{Key Stakeholders in the Diabetes Prediction Model}
+\label{tab:stakeholders}
+\begin{tabular}{|p{4.5cm}|p{9cm}|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Stakeholder}} &
+\textcolor{white}{\textbf{Role and Interest}} \\ \hline
+\rowcolor{tablerowlight}
+Patients &
+Primary beneficiaries of early and accurate diagnosis; earlier
+detection improves treatment outcomes and quality of life \\ \hline
+\rowcolor{tablerowwhite}
+Clinicians \& Nurses &
+Use model predictions to prioritize, triage, and refer
+high-risk patients for confirmatory laboratory testing \\ \hline
+\rowcolor{tablerowlight}
+Hospital Administrators &
+Allocate screening resources efficiently and measure
+the impact of preventive care programmes \\ \hline
+\rowcolor{tablerowwhite}
+Ministry of Health (Kenya) &
+Design and implement evidence-based national diabetes
+screening and prevention policies \\ \hline
+\rowcolor{tablerowlight}
+Health Insurers &
+Risk-stratify insured populations to design targeted
+preventive health packages and reduce claims \\ \hline
+\rowcolor{tablerowwhite}
+Data Scientists \& Researchers &
+Develop, validate, and improve the predictive models
+using clinical and population-level data \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Business and Policy Relevance}
+
+The relevance of this study extends well beyond academic interest ---
+it addresses a significant and growing public health and economic
+burden. Diabetes is one of the fastest growing global health
+emergencies of the 21st century. The International Diabetes Federation
+estimates that in 2021, \textbf{537 million adults aged 20--79 years}
+were living with diabetes worldwide, a figure projected to rise to
+783 million by 2045 \citep{IDF2021}. Direct health expenditures
+due to diabetes are already approaching one trillion US dollars
+annually.
+
+The burden is particularly severe in Sub-Saharan Africa, including
+Kenya. The World Health Organization reports that \textbf{54\% of
+people living with diabetes in the African Region are undiagnosed}
+\citep{WHO2022Africa}, representing the highest undiagnosed proportion
+of any region globally. This means that more than half of all affected
+individuals are unaware of their condition and are therefore receiving
+no treatment --- placing them at high risk of preventable complications
+and premature death.
+
+From a policy perspective, a validated and deployable diabetes
+prediction model would deliver the following benefits:
+
+\begin{itemize}
+    \item \textbf{Cost reduction:} Early detection and intervention
+          significantly reduces the cost of managing late-stage
+          diabetes complications such as dialysis, amputations,
+          and cardiovascular procedures.
+    \item \textbf{Capacity building:} Community health workers and
+          nurses --- without specialist training --- could use the
+          model as a decision-support tool during routine checkups,
+          extending diagnostic reach without additional infrastructure.
+    \item \textbf{Universal Health Coverage (UHC):} Kenya's UHC
+          agenda prioritizes equitable access to preventive and
+          primary care. A low-cost screening tool directly supports
+          this objective by making early diagnosis accessible to
+          underserved populations.
+    \item \textbf{Data-driven policy:} Model outputs and patient
+          risk profiles can inform targeted public health campaigns
+          and resource allocation at county and national level.
+\end{itemize}
+
+\section{Context}
+
+This problem is situated within a \textbf{clinical decision-support
+context} --- specifically targeting primary healthcare facilities in
+Kenya and similar resource-constrained environments, where specialist
+endocrinologists are scarce, laboratory infrastructure is limited, and
+patients often present late.
+
+The dataset used in this study is the \textbf{PIMA Indians Diabetes
+Dataset}, originally created by the National Institute of Diabetes
+and Digestive and Kidney Diseases (NIDDK) and first used
+by \citet{Smith1988} to test an early neural network model --- the
+ADAP learning algorithm --- for forecasting diabetes onset in a
+high-risk population of Pima Indian women. The dataset contains
+diagnostic measurements from \textbf{768 female patients aged 21
+and above}, recorded across nine clinical variables: number of
+pregnancies, plasma glucose concentration, diastolic blood pressure,
+triceps skinfold thickness, serum insulin level, body mass index
+(BMI), diabetes pedigree function, age, and a binary outcome variable
+(diabetic or not).
+
+Although the dataset originates from a specific ethnic population
+in the United States, its clinical variables --- glucose, BMI, blood
+pressure, and insulin --- are universal biomarkers routinely measured
+in primary care settings globally, including Kenya. The model developed
+in this study is therefore generalizable in its clinical variables,
+even if future work would benefit from validation on local Kenyan
+population data.
+
+Importantly, the model developed here is intended to
+\textit{assist} --- not replace --- clinical judgment. It provides a
+\textit{probability score} that signals elevated risk, prompting the
+clinician to refer the patient for confirmatory blood glucose testing.
+This human-in-the-loop design ensures that the model supports
+responsible, ethical, and effective clinical practice.
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 2: DATA UNDERSTANDING & WRANGLING
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Data Understanding \& Wrangling}
+
+\section{Dataset Description}
+% To be completed after coding
+
+\section{Handling Missing Values}
+% To be completed after coding
+
+\section{Handling Outliers}
+% To be completed after coding
+
+\section{Handling Inconsistencies}
+% To be completed after coding
+
+\section{Feature Engineering}
+% To be completed after coding
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 3: EXPLORATORY DATA ANALYSIS
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Exploratory Data Analysis}
+
+\section{Summary Statistics}
+% To be completed after coding
+
+\section{Visualizations}
+% To be completed after coding
+
+\section{Correlation Analysis}
+% To be completed after coding
+
+\section{Key Insights and Interpretation}
+% To be completed after coding
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 4: PROBABILITY & STATISTICAL ANALYSIS
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Probability \& Statistical Analysis}
+
+\section{Random Variables}
+% To be completed after coding
+
+\section{Probability Concepts Applied}
+% To be completed after coding
+
+\section{Hypothesis Formulation}
+% To be completed after coding
+
+\section{Hypothesis Testing}
+% To be completed after coding
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 5: MACHINE LEARNING MODEL
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Machine Learning Model}
+
+\section{Model Selection and Justification}
+% To be completed after coding
+
+\section{Model Development}
+% To be completed after coding
+
+\section{Model Evaluation}
+% To be completed after coding
+
+\section{Interpretation of Results}
+% To be completed after coding
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CHAPTER 6: DATA-DRIVEN DECISION MAKING
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter{Data-Driven Decision Making}
+
+\section{Recommendations}
+% To be completed after coding
+
+\section{Evaluation of Alternatives}
+% To be completed after coding
+
+\section{Linking Findings to Strategy}
+% To be completed after coding
+
+% ─────────────────────────────────────────────────────────────────────────────
+% REFERENCES
+% ─────────────────────────────────────────────────────────────────────────────
+\newpage
+\pagestyle{plain}
+\bibliographystyle{apalike}
+\bibliography{references}
+\addcontentsline{toc}{chapter}{References}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% APPENDIX
+% ─────────────────────────────────────────────────────────────────────────────
+\newpage
+\appendix
+\chapter{Python Code}
+\addcontentsline{toc}{chapter}{Appendix A: Python Code}
+
+All Python code used in this assignment is submitted separately as
+\texttt{diabetes\_assignment.ipynb}. The notebook contains all
+sections from data loading through model evaluation, with inline
+comments explaining each step.
+
+\end{document}
