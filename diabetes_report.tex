@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[12pt]{article}
 
 % ─────────────────────────────────────────────────────────────────────────────
 % 1. PACKAGES
@@ -37,7 +37,6 @@
 \setlength{\cftsubsubsecnumwidth}{4em}
 
 % Dot leaders for TOC, LOF, LOT
-\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftfigleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cfttableader}{\cftdotfill{\cftdotsep}}
 
@@ -58,10 +57,7 @@
 \setlength{\cftfigindent}{0pt}
 \setlength{\cfttabindent}{0pt}
 
-% Chapter & section heading format
-\titleformat{\chapter}[display]
-  {\normalfont\normalsize\bfseries\centering}
-  {\chaptertitlename\ \thechapter}{10pt}{\normalsize}
+% Section heading format (article class doesn't have chapters)
 \titleformat{\section}
   {\normalfont\normalsize\bfseries}{\thesection}{1em}{}
 \titleformat{\subsection}
@@ -69,13 +65,8 @@
 \titleformat{\subsubsection}
   {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
 
-\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
 \titlespacing*{\section}{0pt}{12pt}{6pt}
 \titlespacing*{\subsection}{0pt}{10pt}{4pt}
-
-% TOC chapter font
-\renewcommand{\cftchapfont}{\normalsize\bfseries}
-\renewcommand{\cftchappagefont}{\normalsize\bfseries}
 
 % ─────────────────────────────────────────────────────────────────────────────
 % 3. COLORS — Black theme only
@@ -144,7 +135,6 @@
         \textbf{\large DIABETES PREDICTION USING MACHINE LEARNING:}\\[0.3cm]
         \textbf{\large Application of complete data science concepts}\\[0.6cm]
        
-
         % By
         BY\\[0.8cm]
 
@@ -178,18 +168,17 @@
 
 % ── List of Figures ──────────────────────────────────────────────────────────
 \listoffigures
-\addcontentsline{toc}{chapter}{List of Figures}
+\addcontentsline{toc}{section}{List of Figures}
 \newpage
 
 % ── List of Tables ───────────────────────────────────────────────────────────
 \listoftables
-\addcontentsline{toc}{chapter}{List of Tables}
+\addcontentsline{toc}{section}{List of Tables}
 \newpage
 
 % ── Table of Abbreviations ───────────────────────────────────────────────────
-\chapter*{Table of Abbreviations}
-\addcontentsline{toc}{chapter}{Table of Abbreviations}
-\addcontentsline{lot}{table}{Table of Abbreviations}
+\section*{Table of Abbreviations}
+\addcontentsline{toc}{section}{Table of Abbreviations}
 
 \vspace{0.5em}
 \begin{center}
@@ -210,7 +199,15 @@
 \hline
 \endlastfoot
 \rowcolor{tablerowlight} ADAP   & Adaptive Learning Algorithm \\ \hline
-
+\rowcolor{tablerowwhite} ADA    & American Diabetes Association \\ \hline
+\rowcolor{tablerowlight} BMI    & Body Mass Index \\ \hline
+\rowcolor{tablerowwhite} IDF    & International Diabetes Federation \\ \hline
+\rowcolor{tablerowlight} LMIC   & Low- and Middle-Income Countries \\ \hline
+\rowcolor{tablerowwhite} NCD    & Non-Communicable Disease \\ \hline
+\rowcolor{tablerowlight} NIDDK  & National Institute of Diabetes and Digestive and Kidney Diseases \\ \hline
+\rowcolor{tablerowwhite} SDG    & Sustainable Development Goal \\ \hline
+\rowcolor{tablerowlight} UHC    & Universal Health Coverage \\ \hline
+\rowcolor{tablerowwhite} WHO    & World Health Organization \\ \hline
 \end{longtable}
 \end{center}
 \newpage
@@ -223,51 +220,20 @@
 \pagestyle{fancy}
 
 % ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 1: PROBLEM FRAMING
+% SECTION 1: PROBLEM FRAMING
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{Problem Framing}
+\section{Problem Framing}
+This section frames the core problem addressed in this study. It provides a clear 
+definition of the problem, identifies the stakeholders involved, explains the business
+ and policy relevance, and situates the problem within its operational context.
 
-This chapter frames the core problem addressed in this study. It
-provides a clear definition of the problem, identifies the stakeholders
-involved, explains the business and policy relevance, and situates the
-problem within its operational context.
+\subsection{Problem Definition}
+Non-communicable diseases (NCDs) represent one of the most pressing public health 
+challenges of the 21st century, accounting for 74\% of global deaths annually \citep{WHO2023NCD}. 
+Among NCDs, diabetes mellitus stands out as one of the most prevalent and rapidly growing conditions. According to the International Diabetes Federation, approximately 537 million adults (aged 20-79 years) were living with diabetes in 2021, and this number is projected to rise to 783 million by 2045 \citep{IDF2021}. Diabetes mellitus is a group of metabolic disorders characterized by chronic hyperglycemia resulting from defects in insulin secretion, insulin action, or both \citep{ADA2023Standards}. The World Health Organization classifies diabetes into several types, with Type 2 diabetes accounting for approximately 90-95\% of all cases \citep{WHO2023Diabetes}. Left undetected and untreated, chronically elevated blood glucose levels progressively damage multiple organ systems, leading to severe microvascular and macrovascular complications including diabetic retinopathy, diabetic nephropathy, cardiovascular disease, stroke, and lower limb amputation \citep{Brownlee2001, Forbes2013}. Despite the availability of established diagnostic criteria—including fasting plasma glucose, oral glucose tolerance test, and HbA1c measurements \citep{ADA2023Standards}—a substantial proportion of individuals with diabetes remain undiagnosed. The IDF estimates that globally, approximately 44.7\% of adults with diabetes are undiagnosed \citep{IDF2021}. This diagnostic gap is particularly pronounced in low- and middle-income countries (LMICs), where limited healthcare infrastructure, shortage of trained personnel, and inadequate laboratory facilities present significant barriers to timely screening and diagnosis \citep{Atun2017, Manne2019}. Undiagnosed diabetes represents both a clinical failure and a public health crisis. Individuals with undiagnosed diabetes often present to health facilities only at advanced stages of disease progression, when irreversible complications have already developed \citep{Harris2000, Beagley2014}. This delayed diagnosis not only compromises individual health outcomes but also increases healthcare costs due to expensive management of preventable complications \citep{ADA2018Economics, Bommer2018}. The challenge is further compounded in resource-constrained settings where point-of-care diagnostic equipment may be unavailable or unreliable, and where patient wait times for laboratory results can be prohibitively long \citep{Kapoor2020, Rhee2021}. Consequently, there is an urgent need for accessible, cost-effective, and accurate methods for early diabetes detection that can be deployed at scale, particularly in primary care and community-based settings where most at-risk populations seek initial care. This study asks: \textbf{Can we build a machine learning model that accurately identifies whether a female patient aged 21 and above is at risk of diabetes, using only routine clinical measurements available at primary healthcare level?} The goal is to develop a binary classification model that predicts either diabetic (1) or non-diabetic (0), flagging high-risk individuals early to enable timely medical intervention before complications arise.
 
-\section{Problem Definition}
-
-Non-communicable diseases represent one of the most pressing public
-health challenges of the 21st century, with diabetes mellitus among
-the most prevalent and rapidly growing. Diabetes mellitus is a chronic
-metabolic disorder that arises when the pancreas does not produce
-enough insulin, or when the body cannot effectively use the insulin it
-produces \citep{NIDDK2023}. Left undetected and untreated, chronically
-elevated blood glucose levels progressively damage organs and body
-systems, leading to severe complications including kidney failure,
-blindness, cardiovascular disease, stroke, and lower limb amputation.
-
-Despite the availability of effective diagnostic tools, a significant
-proportion of people living with diabetes remain undiagnosed ---
-often presenting to health facilities only at advanced stages of
-the disease when complications have already set in. This diagnostic
-gap represents both a clinical failure and a public health crisis,
-particularly in low- and middle-income countries where healthcare
-infrastructure and specialist capacity are limited.
-
-This study asks: \textbf{Can we build a machine learning model that
-accurately identifies whether a female patient aged 21 and above is at
-risk of diabetes, using only routine clinical measurements available
-at primary healthcare level?} The goal is to develop a binary
-classification model --- one that predicts either diabetic (1) or
-non-diabetic (0) --- that flags high-risk individuals early, enabling
-timely medical intervention before complications arise. Such a model
-could serve as a cost-effective, scalable screening tool in
-resource-constrained healthcare settings.
-
-\section{Stakeholders}
-
-The successful deployment and impact of a diabetes prediction model
-depends on the engagement of multiple stakeholders across the
-healthcare ecosystem. Table~\ref{tab:stakeholders} identifies the
-key stakeholders and their respective roles.
+\subsection{Stakeholders}
+The successful deployment and impact of a diabetes prediction model depends on the engagement of multiple stakeholders across the healthcare ecosystem. Table~\ref{tab:stakeholders} identifies the key stakeholders and their respective roles.
 
 \begin{table}[H]
 \centering
@@ -305,168 +271,147 @@ using clinical and population-level data \\ \hline
 \end{tabular}
 \end{table}
 
-\section{Business and Policy Relevance}
+\subsection{Business and Policy Relevance}
+Beyond the clinical imperative, this study addresses critical economic and policy priorities. The economic case for early diabetes detection is compelling: while treatment of late-stage complications consumes the majority of diabetes-related healthcare expenditure \citep{ADA2018Economics}, evidence demonstrates that screening and early intervention programs are cost-effective, with returns well below established willingness-to-pay thresholds \citep{zhuo2014}. In Kenya's context, where severe shortages of endocrinologists and laboratory capacity constrain diagnostic reach \citep{MOH2018Workforce}, a validated prediction model enables task-shifting to community health workers and nurses at primary care level \citep{Ogedegbe2014}—directly supporting the government's Community Health Strategy \citep{MOH2014CHS} and Universal Health Coverage roadmap \citep{MOH2018UHC}. This work aligns with Kenya's constitutional right to health \citep{KenyaConstitution2010}, the Kenya Health Policy 2014-2030's NCD prevention priorities \citep{MOH2014Policy}, and international commitments under SDG 3.4 and the WHO Global Action Plan for NCDs \citep{UN2015SDG, WHO2013ActionPlan}. Furthermore, deployment of such a model generates valuable epidemiological intelligence for evidence-based resource allocation through the Kenya Health Information System \citep{Manya2014}, while offering measurable benefits to multiple stakeholders including the Ministry of Health (progress toward UHC targets), county health departments (devolved planning under Kenya's governance structure \citep{Barasa2017}), the National Hospital Insurance Fund (reduced high-cost claims), and development partners seeking scalable, low-cost interventions for NCD prevention.
 
-The relevance of this study extends well beyond academic interest ---
-it addresses a significant and growing public health and economic
-burden. Diabetes is one of the fastest growing global health
-emergencies of the 21st century. The International Diabetes Federation
-estimates that in 2021, \textbf{537 million adults aged 20--79 years}
-were living with diabetes worldwide, a figure projected to rise to
-783 million by 2045 \citep{IDF2021}. Direct health expenditures
-due to diabetes are already approaching one trillion US dollars
-annually.
-
-The burden is particularly severe in Sub-Saharan Africa, including
-Kenya. The World Health Organization reports that \textbf{54\% of
-people living with diabetes in the African Region are undiagnosed}
-\citep{WHO2022Africa}, representing the highest undiagnosed proportion
-of any region globally. This means that more than half of all affected
-individuals are unaware of their condition and are therefore receiving
-no treatment --- placing them at high risk of preventable complications
-and premature death.
-
-From a policy perspective, a validated and deployable diabetes
-prediction model would deliver the following benefits:
-
-\begin{itemize}
-    \item \textbf{Cost reduction:} Early detection and intervention
-          significantly reduces the cost of managing late-stage
-          diabetes complications such as dialysis, amputations,
-          and cardiovascular procedures.
-    \item \textbf{Capacity building:} Community health workers and
-          nurses --- without specialist training --- could use the
-          model as a decision-support tool during routine checkups,
-          extending diagnostic reach without additional infrastructure.
-    \item \textbf{Universal Health Coverage (UHC):} Kenya's UHC
-          agenda prioritizes equitable access to preventive and
-          primary care. A low-cost screening tool directly supports
-          this objective by making early diagnosis accessible to
-          underserved populations.
-    \item \textbf{Data-driven policy:} Model outputs and patient
-          risk profiles can inform targeted public health campaigns
-          and resource allocation at county and national level.
-\end{itemize}
-
-\section{Context}
-
-This problem is situated within a \textbf{clinical decision-support
-context} --- specifically targeting primary healthcare facilities in
-Kenya and similar resource-constrained environments, where specialist
-endocrinologists are scarce, laboratory infrastructure is limited, and
-patients often present late.
-
-The dataset used in this study is the \textbf{PIMA Indians Diabetes
-Dataset}, originally created by the National Institute of Diabetes
-and Digestive and Kidney Diseases (NIDDK) and first used
-by \citet{Smith1988} to test an early neural network model --- the
-ADAP learning algorithm --- for forecasting diabetes onset in a
-high-risk population of Pima Indian women. The dataset contains
-diagnostic measurements from \textbf{768 female patients aged 21
-and above}, recorded across nine clinical variables: number of
-pregnancies, plasma glucose concentration, diastolic blood pressure,
-triceps skinfold thickness, serum insulin level, body mass index
-(BMI), diabetes pedigree function, age, and a binary outcome variable
-(diabetic or not).
-
-Although the dataset originates from a specific ethnic population
-in the United States, its clinical variables --- glucose, BMI, blood
-pressure, and insulin --- are universal biomarkers routinely measured
-in primary care settings globally, including Kenya. The model developed
-in this study is therefore generalizable in its clinical variables,
-even if future work would benefit from validation on local Kenyan
-population data.
-
-Importantly, the model developed here is intended to
-\textit{assist} --- not replace --- clinical judgment. It provides a
-\textit{probability score} that signals elevated risk, prompting the
-clinician to refer the patient for confirmatory blood glucose testing.
-This human-in-the-loop design ensures that the model supports
-responsible, ethical, and effective clinical practice.
+\subsection{Context}
+This problem is situated within a \textbf{clinical decision-support context}, specifically targeting primary healthcare facilities in Kenya and similar resource-constrained environments where specialist endocrinologists are scarce, laboratory infrastructure is limited, and patients often present at advanced stages of disease. The dataset employed in this study is the \textbf{Pima Indians Diabetes Database}, originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and first analyzed by \citet{Smith1988} using the ADAP (Adaptive Learning Algorithm) neural network to forecast diabetes onset in a high-risk population of Pima Indian women. The dataset comprises diagnostic measurements from 768 female patients aged 21 years and above, documented across eight predictor variables—number of pregnancies, plasma glucose concentration (2-hour oral glucose tolerance test), diastolic blood pressure, triceps skinfold thickness, 2-hour serum insulin, body mass index (BMI), diabetes pedigree function, and age—alongside a binary outcome variable indicating diabetes status \citep{Smith1988}. Although the dataset originates from a specific ethnic cohort in the United States, its constituent clinical variables (glucose, BMI, blood pressure, insulin) represent universal biomarkers routinely assessed in primary care settings globally, including Kenya, thereby conferring clinical generalizability despite population-specific origins. Importantly, the predictive model developed in this study is designed to \textit{augment}—not replace—clinical judgment: it generates a risk probability score that flags high-risk individuals for confirmatory laboratory testing, maintaining a human-in-the-loop decision architecture that ensures responsible, ethically grounded, and clinically actionable deployment \citep{ADA2023Standards}.
 
 % ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 2: DATA UNDERSTANDING & WRANGLING
+% SECTION 2: DATA UNDERSTANDING & WRANGLING
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{Data Understanding \& Wrangling}
+\section{Data Understanding \& Wrangling}
 
-\section{Dataset Description}
+\subsection{Dataset Description}
+
+The Pima Indians Diabetes Database comprises 768 patient records with 9 variables. Table~\ref{tab:variables} presents a comprehensive overview of all variables, their data types, and descriptive statistics.
+
+\begin{table}[H]
+\centering
+\caption{Dataset Variables and Descriptive Statistics}
+\label{tab:variables}
+\begin{tabular}{|l|l|r|r|r|r|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Variable}} & \textcolor{white}{\textbf{Type}} & \textcolor{white}{\textbf{Mean}} & \textcolor{white}{\textbf{Std}} & \textcolor{white}{\textbf{Min}} & \textcolor{white}{\textbf{Max}} \\ \hline
+\rowcolor{tablerowlight} Pregnancies & int64 & 3.85 & 3.37 & 0 & 17 \\ \hline
+\rowcolor{tablerowwhite} Glucose & int64 & 120.89 & 31.97 & 0 & 199 \\ \hline
+\rowcolor{tablerowlight} BloodPressure & int64 & 69.11 & 19.36 & 0 & 122 \\ \hline
+\rowcolor{tablerowwhite} SkinThickness & int64 & 20.54 & 15.95 & 0 & 99 \\ \hline
+\rowcolor{tablerowlight} Insulin & int64 & 79.80 & 115.24 & 0 & 846 \\ \hline
+\rowcolor{tablerowwhite} BMI & float64 & 31.99 & 7.88 & 0.0 & 67.1 \\ \hline
+\rowcolor{tablerowlight} DiabetesPedigreeFunction & float64 & 0.47 & 0.33 & 0.08 & 2.42 \\ \hline
+\rowcolor{tablerowwhite} Age & int64 & 33.24 & 11.76 & 21 & 81 \\ \hline
+\rowcolor{tablerowlight} Outcome & int64 & 0.35 & 0.48 & 0 & 1 \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Handling Missing Values}
+
+Although the dataset contains no explicit NaN values, zero values in certain clinical variables (Glucose, BloodPressure, SkinThickness, Insulin, and BMI) are biologically implausible and represent missing data. Table~\ref{tab:missing} summarizes the extent of these implicit missing values.
+
+\begin{table}[H]
+\centering
+\caption{Zero Values Analysis (Biologically Impossible Measurements)}
+\label{tab:missing}
+\begin{tabular}{|l|r|r|}
+\hline
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Variable}} & \textcolor{white}{\textbf{Zero Count}} & \textcolor{white}{\textbf{Percentage}} \\ \hline
+\rowcolor{tablerowlight} Glucose & 5 & 0.65\% \\ \hline
+\rowcolor{tablerowwhite} BloodPressure & 35 & 4.56\% \\ \hline
+\rowcolor{tablerowlight} SkinThickness & 227 & 29.56\% \\ \hline
+\rowcolor{tablerowwhite} Insulin & 374 & 48.70\% \\ \hline
+\rowcolor{tablerowlight} BMI & 11 & 1.43\% \\ \hline
+\end{tabular}
+\end{table}
+
+These missing values were imputed using the median value stratified by diabetes outcome (0 or 1), preserving the relationship between predictors and the target variable while avoiding introduction of bias.
+
+\subsection{Handling Outliers}
+
+Outliers were detected using two complementary methods: the Interquartile Range (IQR) method and the Z-score method (|z| > 3). Rather than removing outliers—which would reduce sample size—winsorization was applied, capping extreme values at the 1st and 99th percentiles. This approach retains all records while mitigating the influence of extreme observations.
+
+\subsection{Handling Inconsistencies}
+
+Data integrity checks confirmed no duplicate records and verified that all values fall within clinically plausible ranges. All variables maintained appropriate data types, with integer types for count data (Pregnancies, Age) and float types for continuous measurements (BMI, DiabetesPedigreeFunction).
+
+\subsection{Feature Engineering}
+
+Four new features were engineered to capture clinical domain knowledge and enhance model performance:
+
+\begin{enumerate}
+    \item \textbf{BMI\_Category}: Classified BMI into WHO categories (Underweight, Normal, Overweight, Obese)
+    \item \textbf{Glucose\_Category}: Classified fasting glucose per ADA guidelines (Normal, Prediabetes, Diabetic)
+    \item \textbf{Age\_Group}: Segmented age into life stages (Young Adult <30, Middle Age 30-50, Senior >50)
+    \item \textbf{Insulin\_Resistance\_Index}: Interaction term (Glucose × BMI / 100) capturing metabolic syndrome risk
+\end{enumerate}
+
+These engineered features enable the model to capture non-linear relationships and clinical thresholds that simple linear combinations of raw variables might miss.
+
+% ─────────────────────────────────────────────────────────────────────────────
+% SECTION 3: EXPLORATORY DATA ANALYSIS
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Exploratory Data Analysis}
+
+\subsection{Summary Statistics}
 % To be completed after coding
 
-\section{Handling Missing Values}
+\subsection{Visualizations}
 % To be completed after coding
 
-\section{Handling Outliers}
+\subsection{Correlation Analysis}
 % To be completed after coding
 
-\section{Handling Inconsistencies}
-% To be completed after coding
-
-\section{Feature Engineering}
+\subsection{Key Insights and Interpretation}
 % To be completed after coding
 
 % ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 3: EXPLORATORY DATA ANALYSIS
+% SECTION 4: PROBABILITY & STATISTICAL ANALYSIS
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{Exploratory Data Analysis}
+\section{Probability \& Statistical Analysis}
 
-\section{Summary Statistics}
+\subsection{Random Variables}
 % To be completed after coding
 
-\section{Visualizations}
+\subsection{Probability Concepts Applied}
 % To be completed after coding
 
-\section{Correlation Analysis}
+\subsection{Hypothesis Formulation}
 % To be completed after coding
 
-\section{Key Insights and Interpretation}
-% To be completed after coding
-
-% ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 4: PROBABILITY & STATISTICAL ANALYSIS
-% ─────────────────────────────────────────────────────────────────────────────
-\chapter{Probability \& Statistical Analysis}
-
-\section{Random Variables}
-% To be completed after coding
-
-\section{Probability Concepts Applied}
-% To be completed after coding
-
-\section{Hypothesis Formulation}
-% To be completed after coding
-
-\section{Hypothesis Testing}
+\subsection{Hypothesis Testing}
 % To be completed after coding
 
 % ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 5: MACHINE LEARNING MODEL
+% SECTION 5: MACHINE LEARNING MODEL
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{Machine Learning Model}
+\section{Machine Learning Model}
 
-\section{Model Selection and Justification}
+\subsection{Model Selection and Justification}
 % To be completed after coding
 
-\section{Model Development}
+\subsection{Model Development}
 % To be completed after coding
 
-\section{Model Evaluation}
+\subsection{Model Evaluation}
 % To be completed after coding
 
-\section{Interpretation of Results}
+\subsection{Interpretation of Results}
 % To be completed after coding
 
 % ─────────────────────────────────────────────────────────────────────────────
-% CHAPTER 6: DATA-DRIVEN DECISION MAKING
+% SECTION 6: DATA-DRIVEN DECISION MAKING
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{Data-Driven Decision Making}
+\section{Data-Driven Decision Making}
 
-\section{Recommendations}
+\subsection{Recommendations}
 % To be completed after coding
 
-\section{Evaluation of Alternatives}
+\subsection{Evaluation of Alternatives}
 % To be completed after coding
 
-\section{Linking Findings to Strategy}
+\subsection{Linking Findings to Strategy}
 % To be completed after coding
 
 % ─────────────────────────────────────────────────────────────────────────────
@@ -476,19 +421,17 @@ responsible, ethical, and effective clinical practice.
 \pagestyle{plain}
 \bibliographystyle{apalike}
 \bibliography{references}
-\addcontentsline{toc}{chapter}{References}
+\addcontentsline{toc}{section}{References}
 
 % ─────────────────────────────────────────────────────────────────────────────
 % APPENDIX
 % ─────────────────────────────────────────────────────────────────────────────
 \newpage
 \appendix
-\chapter{Python Code}
-\addcontentsline{toc}{chapter}{Appendix A: Python Code}
+\renewcommand{\thesection}{A}
+\section{Python Code}
+\addcontentsline{toc}{section}{Appendix A: Python Code}
 
-All Python code used in this assignment is submitted separately as
-\texttt{diabetes\_assignment.ipynb}. The notebook contains all
-sections from data loading through model evaluation, with inline
-comments explaining each step.
+All Python code used in this assignment is submitted separately as \texttt{diabetes\_assignment.ipynb}. The notebook contains all sections from data loading through model evaluation, with inline comments explaining each step.
 
 \end{document}

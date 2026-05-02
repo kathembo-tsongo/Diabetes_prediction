@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex diabetes_report"] 1777667724.24779 "diabetes_report.aux" "diabetes_report.bbl" "diabetes_report" 1777668050.21474 0
-  "./references.bib" 1777665240.92107 0 d41d8cd98f00b204e9800998ecf8427e ""
+["bibtex diabetes_report"] 1777699662.42485 "diabetes_report.aux" "diabetes_report.bbl" "diabetes_report" 1777699663.14893 0
+  "./references.bib" 1777697426.30266 8743 75eebd6451750200547ea161a809fa05 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "diabetes_report.aux" 1777668050.13743 5609 04fb1b611d4872077e5155d8df70bbbd "pdflatex"
+  "diabetes_report.aux" 1777699663.05978 7842 d167b5eedf8ba37c99bd66705f7f5bbd "pdflatex"
   (generated)
   "diabetes_report.bbl"
   "diabetes_report.blg"
   (rewritten before read)
-["pdflatex"] 1777668049.70578 "/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex" "diabetes_report.pdf" "diabetes_report" 1777668050.2149 0
+["pdflatex"] 1777699662.45171 "/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex" "diabetes_report.pdf" "diabetes_report" 1777699663.14925 0
   "/etc/texmf/web2c/texmf.cnf" 1777664458.30565 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex" 1777668049.51354 23650 b90a46cdf29b449cf0d2fd379c07154c ""
+  "/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex" 1777699662.00861 28986 17ebc268c88f64cf35febb3d93e4b6de ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -63,9 +63,9 @@
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty" 1761946296 88471 b1bb09142edddebd46ba986341b867bd ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty" 1748806692 4474 c510a88aa5f51b8c773b50a7ee92befd ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty" 1748806692 2444 9983e1d0683f102e3b190c64a49313aa ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1761946296 5275 6f9d359641b36842524cdb97716ab75f ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/base/report.cls" 1748806692 23203 f495085ac76be4e20c5e1e88646a241e ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo" 1748806692 8449 8dc66c6c313c8eb2d774af83bca435dd ""
   "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty" 1579038678 6078 f1cb470c9199e7110a27851508ed7a5c ""
   "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
@@ -122,13 +122,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1777664464 165211 6b08d096f3d0fe5ff6b266061a2b45e0 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1777664472 2265602 42fc278c380d77d92d7a39b11d3ea484 ""
-  "diabetes_report.aux" 1777668050.13743 5609 04fb1b611d4872077e5155d8df70bbbd "pdflatex"
-  "diabetes_report.bbl" 1777667724.26109 49 0eba253fc001332e731e8aba3f23127b "bibtex diabetes_report"
-  "diabetes_report.lof" 1777668050.13901 140 104a8a462b27a2267fd07b368245cdd0 "pdflatex"
-  "diabetes_report.lot" 1777668050.13901 330 c502338ee59034e6bd05afcbb2d5c389 "pdflatex"
-  "diabetes_report.out" 1777668050.13815 5729 2098394d757b9ea5bf5f1b5370320716 "pdflatex"
-  "diabetes_report.tex" 1777668049.51354 23650 b90a46cdf29b449cf0d2fd379c07154c ""
-  "diabetes_report.toc" 1777668050.13901 2791 ff417ff44e0526525b1b4869b2c2f643 "pdflatex"
+  "diabetes_report.aux" 1777699663.05978 7842 d167b5eedf8ba37c99bd66705f7f5bbd "pdflatex"
+  "diabetes_report.bbl" 1777699662.44599 6382 31ecef48dce3285893e6251bfb2a2f07 "bibtex diabetes_report"
+  "diabetes_report.lof" 1777699662.92954 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "diabetes_report.lot" 1777699663.06206 380 3d2e05f9e98e28d4b1cd770b11db3677 "pdflatex"
+  "diabetes_report.out" 1777699663.06178 5804 529d43a352c780636385f6cdf7cd26b2 "pdflatex"
+  "diabetes_report.tex" 1777699662.00861 28986 17ebc268c88f64cf35febb3d93e4b6de ""
+  "diabetes_report.toc" 1777699663.06206 2938 e4e59ad5508ea64dce3a0b3389df1282 "pdflatex"
   "images/strathmore_logo.png" 1777667302.09966 8364 00ca8e15eb27af2c1f5f815760099607 ""
   (generated)
   "diabetes_report.aux"

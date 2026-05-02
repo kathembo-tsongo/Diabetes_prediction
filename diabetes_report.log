@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.1)  1 MAY 2026 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.1)  2 MAY 2026 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,20 +7,19 @@ entering extended mode
 (/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
-\c@chapter=\count276
-\c@section=\count277
-\c@subsection=\count278
-\c@subsubsection=\count279
-\c@paragraph=\count280
-\c@subparagraph=\count281
-\c@figure=\count282
-\c@table=\count283
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
@@ -40,9 +39,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
 \Gm@bindingoffset=\dimen149
 \Gm@wd@mp=\dimen150
 \Gm@odd@mp=\dimen151
@@ -72,7 +71,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count287
+\c@NAT@ctr=\count286
 ) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
@@ -85,7 +84,7 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count288
+\etb@tempcnta=\count287
 )) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -111,13 +110,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count288
 ) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen159
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -125,7 +124,7 @@ Now handling font encoding PD1 ...
 ) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count292
+\Hy@SavedSpaceFactor=\count291
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -138,7 +137,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count293
+\c@Hy@tempcnt=\count292
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -150,7 +149,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count294
+\Fld@menulength=\count293
 \Field@Width=\dimen161
 \Fld@charsize=\dimen162
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -160,15 +159,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -179,43 +178,40 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip53
 ) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 51.
+Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip54
 \cftbeforetoctitleskip=\skip55
 \cftaftertoctitleskip=\skip56
 \cftbeforepartskip=\skip57
 \cftpartnumwidth=\skip58
 \cftpartindent=\skip59
-\cftbeforechapskip=\skip60
-\cftchapindent=\skip61
-\cftchapnumwidth=\skip62
-\cftbeforesecskip=\skip63
-\cftsecindent=\skip64
-\cftsecnumwidth=\skip65
-\cftbeforesubsecskip=\skip66
-\cftsubsecindent=\skip67
-\cftsubsecnumwidth=\skip68
-\cftbeforesubsubsecskip=\skip69
-\cftsubsubsecindent=\skip70
-\cftsubsubsecnumwidth=\skip71
-\cftbeforeparaskip=\skip72
-\cftparaindent=\skip73
-\cftparanumwidth=\skip74
-\cftbeforesubparaskip=\skip75
-\cftsubparaindent=\skip76
-\cftsubparanumwidth=\skip77
-\cftbeforeloftitleskip=\skip78
-\cftafterloftitleskip=\skip79
-\cftbeforefigskip=\skip80
-\cftfigindent=\skip81
-\cftfignumwidth=\skip82
-\c@lofdepth=\count300
-\c@lotdepth=\count301
-\cftbeforelottitleskip=\skip83
-\cftafterlottitleskip=\skip84
-\cftbeforetabskip=\skip85
-\cfttabindent=\skip86
-\cfttabnumwidth=\skip87
+\cftbeforesecskip=\skip60
+\cftsecindent=\skip61
+\cftsecnumwidth=\skip62
+\cftbeforesubsecskip=\skip63
+\cftsubsecindent=\skip64
+\cftsubsecnumwidth=\skip65
+\cftbeforesubsubsecskip=\skip66
+\cftsubsubsecindent=\skip67
+\cftsubsubsecnumwidth=\skip68
+\cftbeforeparaskip=\skip69
+\cftparaindent=\skip70
+\cftparanumwidth=\skip71
+\cftbeforesubparaskip=\skip72
+\cftsubparaindent=\skip73
+\cftsubparanumwidth=\skip74
+\cftbeforeloftitleskip=\skip75
+\cftafterloftitleskip=\skip76
+\cftbeforefigskip=\skip77
+\cftfigindent=\skip78
+\cftfignumwidth=\skip79
+\c@lofdepth=\count299
+\c@lotdepth=\count300
+\cftbeforelottitleskip=\skip80
+\cftafterlottitleskip=\skip81
+\cftbeforetabskip=\skip82
+\cfttabindent=\skip83
+\cfttabnumwidth=\skip84
 
 
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
@@ -223,8 +219,8 @@ Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing 
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
-\beforetitleunit=\skip88
-\aftertitleunit=\skip89
+\beforetitleunit=\skip85
+\aftertitleunit=\skip86
 \ttl@plus=\dimen163
 \ttl@minus=\dimen164
 \ttl@toksa=\toks21
@@ -255,30 +251,30 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \ar@mcellbox=\box54
 \extrarowheight=\dimen169
 \NC@list=\toks22
-\extratabsurround=\skip90
-\backup@length=\skip91
+\extratabsurround=\skip87
+\backup@length=\skip88
 \ar@cellbox=\box55
 )
 \everycr=\toks23
-\minrowclearance=\skip92
-\rownum=\count302
+\minrowclearance=\skip89
+\rownum=\count301
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip93
-\LTright=\skip94
-\LTpre=\skip95
-\LTpost=\skip96
-\LTchunksize=\count303
+\LTleft=\skip90
+\LTright=\skip91
+\LTpre=\skip92
+\LTpost=\skip93
+\LTchunksize=\count302
 \LTcapwidth=\dimen170
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
 \LT@gbox=\box60
-\LT@cols=\count304
-\LT@rows=\count305
-\c@LT@tables=\count306
-\c@LT@chunks=\count307
+\LT@cols=\count303
+\LT@rows=\count304
+\c@LT@tables=\count305
+\c@LT@chunks=\count306
 \LT@p@ftn=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -294,8 +290,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen178
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count308
-\c@continuedfloat=\count309
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -303,32 +299,32 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count310
+\c@subfigure=\count309
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count311
+\c@subtable=\count310
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count312
+\c@float@type=\count311
 \float@exts=\toks25
 \float@box=\box61
 \@float@everytoks=\toks26
 \@floatcapt=\box62
 ) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip97
-\RaggedLeftLeftskip=\skip98
-\RaggedRightLeftskip=\skip99
-\CenteringRightskip=\skip100
-\RaggedLeftRightskip=\skip101
-\RaggedRightRightskip=\skip102
-\CenteringParfillskip=\skip103
-\RaggedLeftParfillskip=\skip104
-\RaggedRightParfillskip=\skip105
-\JustifyingParfillskip=\skip106
-\CenteringParindent=\skip107
-\RaggedLeftParindent=\skip108
-\RaggedRightParindent=\skip109
-\JustifyingParindent=\skip110
+\CenteringLeftskip=\skip94
+\RaggedLeftLeftskip=\skip95
+\RaggedRightLeftskip=\skip96
+\CenteringRightskip=\skip97
+\RaggedLeftRightskip=\skip98
+\RaggedRightRightskip=\skip99
+\CenteringParfillskip=\skip100
+\RaggedLeftParfillskip=\skip101
+\RaggedRightParfillskip=\skip102
+\JustifyingParfillskip=\skip103
+\CenteringParindent=\skip104
+\RaggedLeftParindent=\skip105
+\RaggedRightParindent=\skip106
+\JustifyingParindent=\skip107
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen179
@@ -341,16 +337,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen186
 \cmidrulekern=\dimen187
 \defaultaddspace=\dimen188
-\@cmidla=\count313
-\@cmidlb=\count314
+\@cmidla=\count312
+\@cmidlb=\count313
 \@aboverulesep=\dimen189
 \@belowrulesep=\dimen190
-\@thisruleclass=\count315
-\@lastruleclass=\count316
+\@thisruleclass=\count314
+\@lastruleclass=\count315
 \@thisrulewidth=\dimen191
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip111
+\@mathmargin=\skip108
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -365,14 +361,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count317
+\inf@bad=\count316
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count318
-\leftroot@=\count319
+\uproot@=\count317
+\leftroot@=\count318
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count320
-\DOTSCASE@=\count321
+\classnum@=\count319
+\DOTSCASE@=\count320
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -385,20 +381,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen194
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count322
+\macc@depth=\count321
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count323
+\c@MaxMatrixCols=\count322
 \dotsspace@=\muskip18
-\c@parentequation=\count324
-\dspbrk@lvl=\count325
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
 \tag@help=\toks28
-\row@=\count326
-\column@=\count327
-\maxfields@=\count328
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
 \andhelp@=\toks29
 \eqnshift@=\dimen195
 \alignsep@=\dimen196
@@ -407,30 +403,30 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \totwidth@=\dimen199
 \lineht@=\dimen256
 \@envbody=\toks30
-\multlinegap=\skip112
-\multlinetaggap=\skip113
+\multlinegap=\skip109
+\multlinetaggap=\skip110
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count329
+\lst@mode=\count328
 \lst@gtempboxa=\box65
 \lst@token=\toks32
-\lst@length=\count330
+\lst@length=\count329
 \lst@currlwidth=\dimen257
-\lst@column=\count331
-\lst@pos=\count332
+\lst@column=\count330
+\lst@pos=\count331
 \lst@lostspace=\dimen258
 \lst@width=\dimen259
-\lst@newlines=\count333
-\lst@lineno=\count334
+\lst@newlines=\count332
+\lst@lineno=\count333
 \lst@maxwidth=\dimen260
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count335
-\lst@skipnumbers=\count336
+\c@lstnumber=\count334
+\lst@skipnumbers=\count335
 \lst@framebox=\box66
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -445,53 +441,53 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip114
-\f@nch@offset@elh=\skip115
-\f@nch@offset@erh=\skip116
-\f@nch@offset@olh=\skip117
-\f@nch@offset@orh=\skip118
-\f@nch@offset@elf=\skip119
-\f@nch@offset@erf=\skip120
-\f@nch@offset@olf=\skip121
-\f@nch@offset@orf=\skip122
-\f@nch@height=\skip123
-\f@nch@footalignment=\skip124
-\f@nch@widthL=\skip125
-\f@nch@widthC=\skip126
-\f@nch@widthR=\skip127
+\f@nch@headwidth=\skip111
+\f@nch@offset@elh=\skip112
+\f@nch@offset@erh=\skip113
+\f@nch@offset@olh=\skip114
+\f@nch@offset@orh=\skip115
+\f@nch@offset@elf=\skip116
+\f@nch@offset@erf=\skip117
+\f@nch@offset@olf=\skip118
+\f@nch@offset@orf=\skip119
+\f@nch@height=\skip120
+\f@nch@footalignment=\skip121
+\f@nch@widthL=\skip122
+\f@nch@widthC=\skip123
+\f@nch@widthR=\skip124
 \@temptokenb=\toks33
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 96.
+Package hyperref Info: Option `colorlinks' set `true' on input line 87.
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 126.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 117.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count337
+\l__color_backend_stack_int=\count336
 ) (./diabetes_report.aux)
 \openout1 = `diabetes_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -529,16 +525,16 @@ LaTeX Font Info:    ... okay on input line 126.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count337
 \scratchdimen=\dimen261
 \scratchbox=\box67
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\nofMPsegments=\count338
+\nofMParguments=\count339
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count341
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen262
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -546,7 +542,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 126.
+Package hyperref Info: Link coloring ON on input line 117.
  (./diabetes_report.out) (./diabetes_report.out)
 \@outlinefile=\write3
 \openout3 = `diabetes_report.out'.
@@ -555,11 +551,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count344
-<./images/strathmore_logo.png, id=146, 324.21124pt x 156.585pt>
+\c@lstlisting=\count343
+<./images/strathmore_logo.png, id=144, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
-Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 137.
+Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 128.
 (pdftex.def)             Requested size: 91.70374pt x 44.29028pt.
  [1
 
@@ -575,35 +571,28 @@ Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 137.
 \tf@lot=\write6
 \openout6 = `diabetes_report.lot'.
 
- [5] [6
+ [5] [6]
 
-]
-Chapter 1.
-
-Package natbib Warning: Citation `NIDDK2023' on page 1 undefined on input line 242.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.265 \section{Stakeholders}
-                             [1
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+l.234 
+       [1]
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 []|\T1/ptm/m/n/12 Ministry of Health
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 []|\T1/ptm/m/n/12 Data Sci-en-tists & Re-
  []
-
-
-Package natbib Warning: Citation `IDF2021' on page 2 undefined on input line 316.
-
-
-Package natbib Warning: Citation `WHO2022Africa' on page 2 undefined on input line 323.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -613,13 +602,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 333.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-Package natbib Warning: Citation `Smith1988' on page 3 undefined on input line 362.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -636,67 +618,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Chapter 2.
-[5
 
-]
-Chapter 3.
-[6
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-]
-Chapter 4.
-[7
+[5]
 
-]
-Chapter 5.
-[8
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-]
-Chapter 6.
-[9
+[6]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 347.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
-] (./diabetes_report.bbl
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
+[7]
 
-) [10
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-]
-Appendix A.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 490.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+[8] (./diabetes_report.bbl [9] [10]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 120.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (79.90343pt too wide) in paragraph at lines 489--493
-\T1/ptm/m/n/12 All Python code used in this as-sign-ment is sub-mit-ted sep-a-rately as \T1/pcr/m/n/12 diabetes_assignment.ipynb\T1/ptm/m/n/12 .
+Underfull \hbox (badness 1983) in paragraph at lines 118--122
+[]\T1/ptm/m/n/12 World Health Or-ga-ni-za-tion (2023a).  Di-a-betes.  [][]$\T1/pcr/m/n/12 https : / / www . who . int /
  []
 
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+[]\T1/ptm/m/n/12 World Health Or-ga-ni-za-tion (2023b).  Non-com-mu-ni-ca-ble dis-eases.
+ []
 
-[11
 
-] (./diabetes_report.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+[][]$\T1/pcr/m/n/12 https : / / www . who . int / news-[]room / fact-[]sheets / detail /
+ []
+
+) [11]
+Overfull \hbox (79.90343pt too wide) in paragraph at lines 435--436
+\T1/ptm/m/n/12 All Python code used in this as-sign-ment is sub-mit-ted sep-a-rately as \T1/pcr/m/n/12 diabetes_assignment.ipynb\T1/ptm/m/n/12 .
+ []
+
+[12] (./diabetes_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `diabetes_report.out' has not changed.
-(rerunfilecheck)             Checksum: 2098394D757B9EA5BF5F1B5370320716;5729.
+(rerunfilecheck)             Checksum: 529D43A352C780636385F6CDF7CD26B2;5804.
  ) 
 Here is how much of TeX's memory you used:
- 15167 strings out of 469438
- 235831 string characters out of 5468411
- 844048 words of memory out of 5000000
- 43571 multiletter control sequences out of 15000+600000
+ 15260 strings out of 469438
+ 237779 string characters out of 5468411
+ 850425 words of memory out of 5000000
+ 43633 multiletter control sequences out of 15000+600000
  647362 words of font info for 66 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 69i,12n,83p,1243b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,12n,83p,3194b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diabetes_report.pdf (17 pages, 96438 bytes).
+Output written on diabetes_report.pdf (18 pages, 116473 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  294 words of extra memory for PDF output out of 10000 (max. 10000000)
 
