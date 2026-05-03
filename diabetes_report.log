@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.1)  2 MAY 2026 08:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.5.1)  3 MAY 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -543,7 +543,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring ON on input line 117.
- (./diabetes_report.out) (./diabetes_report.out)
 \@outlinefile=\write3
 \openout3 = `diabetes_report.out'.
 
@@ -552,26 +551,82 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count343
-<./images/strathmore_logo.png, id=144, 324.21124pt x 156.585pt>
+<./images/strathmore_logo.png, id=4, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
 Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 128.
 (pdftex.def)             Requested size: 91.70374pt x 44.29028pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/strathmore_logo.png>] (./diabetes_report.toc [2])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/strathmore_logo.png>]
+No file diabetes_report.toc.
 \tf@toc=\write4
 \openout4 = `diabetes_report.toc'.
 
- [3] (./diabetes_report.lof)
+[2]
+No file diabetes_report.lof.
 \tf@lof=\write5
 \openout5 = `diabetes_report.lof'.
 
- [4] (./diabetes_report.lot)
+[3]
+No file diabetes_report.lot.
 \tf@lot=\write6
 \openout6 = `diabetes_report.lot'.
 
- [5] [6]
+[4] [5]
+
+Package natbib Warning: Citation `WHO2023NCD' on page 1 undefined on input line 232.
+
+
+Package natbib Warning: Citation `IDF2021' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `ADA2023Standards' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `WHO2023Diabetes' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Brownlee2001' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Forbes2013' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `ADA2023Standards' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `IDF2021' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Atun2017' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Manne2019' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Harris2000' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Beagley2014' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `ADA2018Economics' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Bommer2018' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Kapoor2020' on page 1 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Rhee2021' on page 1 undefined on input line 233.
+
+
+Overfull \hbox (1.29208pt too wide) in paragraph at lines 231--234
+\T1/ptm/m/n/12 chal-lenges of the 21st cen-tury, ac-count-ing for 74% of global deaths an-nu-ally (\T1/ptm/b/n/12 ?\T1/ptm/m/n/12 ). Among
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -585,6 +640,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.234 
        [1]
+
+LaTeX Warning: Reference `tab:stakeholders' on page 2 undefined on input line 236.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 260--260
 []|\T1/ptm/m/n/12 Ministry of Health
  []
@@ -603,6 +662,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 
+Package natbib Warning: Citation `ADA2018Economics' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `zhuo2014' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `MOH2018Workforce' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `Ogedegbe2014' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `MOH2014CHS' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `MOH2018UHC' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `KenyaConstitution2010' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `MOH2014Policy' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `UN2015SDG' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `WHO2013ActionPlan' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `Manya2014' on page 3 undefined on input line 275.
+
+
+Package natbib Warning: Citation `Barasa2017' on page 3 undefined on input line 275.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -611,6 +706,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 
+Package natbib Warning: Citation `Smith1988' on page 4 undefined on input line 278.
+
+
+Package natbib Warning: Citation `Smith1988' on page 4 undefined on input line 278.
+
+
+Package natbib Warning: Citation `ADA2023Standards' on page 4 undefined on input line 278.
+
+
+LaTeX Warning: Reference `fig:desc_stats' on page 4 undefined on input line 287.
+
+
+LaTeX Warning: Reference `tab:variables' on page 4 undefined on input line 287.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -618,6 +728,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+<./images/screenshort1.png, id=55, 635.37375pt x 243.91125pt>
+File: ./images/screenshort1.png Graphic file (type png)
+<use ./images/screenshort1.png>
+Package pdftex.def Info: ./images/screenshort1.png  used on input line 291.
+(pdftex.def)             Requested size: 312.62466pt x 120.01627pt.
+
+
+LaTeX Warning: Reference `tab:missing' on page 5 undefined on input line 317.
+
+<./images/screenshort2.png, id=57, 411.78844pt x 262.73157pt>
+File: ./images/screenshort2.png Graphic file (type png)
+<use ./images/screenshort2.png>
+Package pdftex.def Info: ./images/screenshort2.png  used on input line 321.
+(pdftex.def)             Requested size: 312.62466pt x 199.46156pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -625,7 +749,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[5 <./images/screenshort1.png>]
+<./images/screenshort3.png, id=67, 661.72218pt x 307.1475pt>
+File: ./images/screenshort3.png Graphic file (type png)
+<use ./images/screenshort3.png>
+Package pdftex.def Info: ./images/screenshort3.png  used on input line 343.
+(pdftex.def)             Requested size: 312.62466pt x 145.1092pt.
+<./images/screenshort7.png, id=68, 375.65344pt x 328.22626pt>
+File: ./images/screenshort7.png Graphic file (type png)
+<use ./images/screenshort7.png>
+Package pdftex.def Info: ./images/screenshort7.png  used on input line 351.
+(pdftex.def)             Requested size: 312.62466pt x 273.17395pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -633,11 +768,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 347.
+[6 <./images/screenshort2.png> <./images/screenshort3.png>]
+<./images/screenshort4.png, id=78, 291.33844pt x 154.32657pt>
+File: ./images/screenshort4.png Graphic file (type png)
+<use ./images/screenshort4.png>
+Package pdftex.def Info: ./images/screenshort4.png  used on input line 362.
+(pdftex.def)             Requested size: 312.62466pt x 165.61522pt.
+<./images/screenshort5.png, id=79, 328.97906pt x 152.82094pt>
+File: ./images/screenshort5.png Graphic file (type png)
+<use ./images/screenshort5.png>
+Package pdftex.def Info: ./images/screenshort5.png  used on input line 364.
+(pdftex.def)             Requested size: 312.62466pt x 145.22568pt.
+<./images/screenshort6.png, id=80, 328.97906pt x 128.73094pt>
+File: ./images/screenshort6.png Graphic file (type png)
+<use ./images/screenshort6.png>
+Package pdftex.def Info: ./images/screenshort6.png  used on input line 366.
+(pdftex.def)             Requested size: 312.62466pt x 122.33296pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./images/screenshort7.png>]
+<./images/screenshort8.png, id=88, 496.85625pt x 399.74344pt>
+File: ./images/screenshort8.png Graphic file (type png)
+<use ./images/screenshort8.png>
+Package pdftex.def Info: ./images/screenshort8.png  used on input line 376.
+(pdftex.def)             Requested size: 312.62466pt x 251.5225pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./images/screenshort4.png> <./images/screenshort5.png> <./images/screenshort6.png>]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 389.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+<./images/screenshort9.png, id=99, 1086.30844pt x 374.90062pt>
+File: ./images/screenshort9.png Graphic file (type png)
+<use ./images/screenshort9.png>
+Package pdftex.def Info: ./images/screenshort9.png  used on input line 395.
+(pdftex.def)             Requested size: 312.62466pt x 107.88892pt.
+<./images/screenshort10.png, id=100, 1086.30844pt x 374.90062pt>
+File: ./images/screenshort10.png Graphic file (type png)
+<use ./images/screenshort10.png>
+Package pdftex.def Info: ./images/screenshort10.png  used on input line 396.
+(pdftex.def)             Requested size: 312.62466pt x 107.88892pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -645,7 +829,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]
+[9 <./images/screenshort8.png>]
+<./images/screenshort11.png, id=112, 545.78906pt x 333.49594pt>
+File: ./images/screenshort11.png Graphic file (type png)
+<use ./images/screenshort11.png>
+Package pdftex.def Info: ./images/screenshort11.png  used on input line 408.
+(pdftex.def)             Requested size: 312.62466pt x 191.0259pt.
+<./images/screenshort12.png, id=113, 1060.71281pt x 575.90157pt>
+File: ./images/screenshort12.png Graphic file (type png)
+<use ./images/screenshort12.png>
+Package pdftex.def Info: ./images/screenshort12.png  used on input line 421.
+(pdftex.def)             Requested size: 395.98996pt x 214.99593pt.
+<./images/screenshort13.png, id=114, 1085.55562pt x 261.22594pt>
+File: ./images/screenshort13.png Graphic file (type png)
+<use ./images/screenshort13.png>
+Package pdftex.def Info: ./images/screenshort13.png  used on input line 422.
+(pdftex.def)             Requested size: 395.98996pt x 95.28886pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -653,51 +853,489 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8] (./diabetes_report.bbl [9] [10]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 120.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \hbox (badness 1983) in paragraph at lines 118--122
-[]\T1/ptm/m/n/12 World Health Or-ga-ni-za-tion (2023a).  Di-a-betes.  [][]$\T1/pcr/m/n/12 https : / / www . who . int /
+[10 <./images/screenshort9.png> <./images/screenshort10.png> <./images/screenshort11.png>]
+<./images/screenshort14.png, id=128, 1051.67906pt x 572.1375pt>
+File: ./images/screenshort14.png Graphic file (type png)
+<use ./images/screenshort14.png>
+Package pdftex.def Info: ./images/screenshort14.png  used on input line 430.
+(pdftex.def)             Requested size: 395.98996pt x 215.42404pt.
+<./images/screenshort15.png, id=129, 1061.46562pt x 253.69781pt>
+File: ./images/screenshort15.png Graphic file (type png)
+<use ./images/screenshort15.png>
+Package pdftex.def Info: ./images/screenshort15.png  used on input line 431.
+(pdftex.def)             Requested size: 395.98996pt x 94.6448pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <./images/screenshort12.png> <./images/screenshort13.png>]
+<./images/screenshort16.png, id=137, 822.07124pt x 592.46344pt>
+File: ./images/screenshort16.png Graphic file (type png)
+<use ./images/screenshort16.png>
+Package pdftex.def Info: ./images/screenshort16.png  used on input line 439.
+(pdftex.def)             Requested size: 395.98996pt x 285.38269pt.
+<./images/screenshort17.png, id=138, 818.30719pt x 203.25937pt>
+File: ./images/screenshort17.png Graphic file (type png)
+<use ./images/screenshort17.png>
+Package pdftex.def Info: ./images/screenshort17.png  used on input line 440.
+(pdftex.def)             Requested size: 395.98996pt x 98.36046pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12 <./images/screenshort14.png> <./images/screenshort15.png>]
+<./images/screenshort18.png, id=147, 980.91469pt x 608.2725pt>
+File: ./images/screenshort18.png Graphic file (type png)
+<use ./images/screenshort18.png>
+Package pdftex.def Info: ./images/screenshort18.png  used on input line 449.
+(pdftex.def)             Requested size: 395.98996pt x 245.55081pt.
+<./images/screenshort19.png, id=148, 984.67876pt x 379.4175pt>
+File: ./images/screenshort19.png Graphic file (type png)
+<use ./images/screenshort19.png>
+Package pdftex.def Info: ./images/screenshort19.png  used on input line 450.
+(pdftex.def)             Requested size: 395.98996pt x 152.58061pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13 <./images/screenshort16.png> <./images/screenshort17.png>]
+<./images/screenshort20.png, id=157, 1069.74657pt x 555.57562pt>
+File: ./images/screenshort20.png Graphic file (type png)
+<use ./images/screenshort20.png>
+Package pdftex.def Info: ./images/screenshort20.png  used on input line 459.
+(pdftex.def)             Requested size: 395.98996pt x 205.66148pt.
+<./images/screenshort21.png, id=158, 1069.74657pt x 255.20343pt>
+File: ./images/screenshort21.png Graphic file (type png)
+<use ./images/screenshort21.png>
+Package pdftex.def Info: ./images/screenshort21.png  used on input line 460.
+(pdftex.def)             Requested size: 395.98996pt x 94.47052pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14 <./images/screenshort18.png> <./images/screenshort19.png>]
+<./images/screenshort22.png, id=168, 1070.49937pt x 365.86688pt>
+File: ./images/screenshort22.png Graphic file (type png)
+<use ./images/screenshort22.png>
+Package pdftex.def Info: ./images/screenshort22.png  used on input line 469.
+(pdftex.def)             Requested size: 395.98996pt x 135.34071pt.
+<./images/screenshort23.png, id=169, 755.82375pt x 613.54219pt>
+File: ./images/screenshort23.png Graphic file (type png)
+<use ./images/screenshort23.png>
+Package pdftex.def Info: ./images/screenshort23.png  used on input line 478.
+(pdftex.def)             Requested size: 395.98996pt x 321.44978pt.
+<./images/screenshort24.png, id=170, 341.02406pt x 81.30376pt>
+File: ./images/screenshort24.png Graphic file (type png)
+<use ./images/screenshort24.png>
+Package pdftex.def Info: ./images/screenshort24.png  used on input line 479.
+(pdftex.def)             Requested size: 395.98996pt x 94.41412pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./images/screenshort20.png> <./images/screenshort21.png> <./images/screenshort22.png>]
+<./images/screenshort25.png, id=183, 480.29437pt x 383.93437pt>
+File: ./images/screenshort25.png Graphic file (type png)
+<use ./images/screenshort25.png>
+Package pdftex.def Info: ./images/screenshort25.png  used on input line 487.
+(pdftex.def)             Requested size: 395.98996pt x 316.55057pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./images/screenshort23.png> <./images/screenshort24.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17 <./images/screenshort25.png>]
+Overfull \hbox (1.85347pt too wide) in paragraph at lines 504--505
+\T1/ptm/m/n/12 among di-a-betic pa-tients is par-tic-u-larly in-for-ma-tive: it in-di-cates that in-sulin re-sis-tance^^Va
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-[]\T1/ptm/m/n/12 World Health Or-ga-ni-za-tion (2023b).  Non-com-mu-ni-ca-ble dis-eases.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:524: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 ...in} quantifies 2-hour serum insulin in μ
+                                                  U/ml (0-846 μU/ml). \text...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:524: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 ... 2-hour serum insulin in μU/ml (0-846 μ
+                                                  U/ml). \textit{BMI} (body ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \hbox (42.06944pt too wide) in paragraph at lines 530--531
+\T1/ptm/m/n/12 The tar-get vari-able fol-lows a Bernoulli dis-tri-bu-tion with prob-a-bil-ity mass func-tion $\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 ([] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-[][]$\T1/pcr/m/n/12 https : / / www . who . int / news-[]room / fact-[]sheets / detail /
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+Overfull \hbox (7.32637pt too wide) in paragraph at lines 554--555
+[]\T1/ptm/m/n/12 This re-sult matches the di-rectly com-puted con-di-tional prob-a-bil-ity, val-i-dat-ing the Bayesian
  []
 
-) [11]
-Overfull \hbox (79.90343pt too wide) in paragraph at lines 435--436
-\T1/ptm/m/n/12 All Python code used in this as-sign-ment is sub-mit-ted sep-a-rately as \T1/pcr/m/n/12 diabetes_assignment.ipynb\T1/ptm/m/n/12 .
- []
 
-[12] (./diabetes_report.aux)
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:558: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 ...g/m², and $E[\text{Insulin}] = 79.80$ μ
+                                                  U/ml. However, conditional...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:558: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 ...lin} \mid \text{No Diabetes}] = 68.79$ μ
+                                                  U/ml versus $E[\text{Insul...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:558: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 ...sulin} \mid \text{Diabetes}] = 100.34$ μ
+                                                  U/ml, a difference of 31.5...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:558: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 ... 100.34$ μU/ml, a difference of 31.55 μ
+                                                  U/ml. These large differen...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:608: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.608 ...patients showed mean insulin of 100.34 μ
+                                                  U/ml (SD=138.69), versus 6...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:608: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.608 ...00.34 μU/ml (SD=138.69), versus 68.79 μ
+                                                  U/ml (SD=98.83) for non-di...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/dieudonne/MSIT/sem2/Data_Science/diabetes_report.tex:610: LaTeX Error: Unicode character μ (U+03BC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.610 ...evels, with a mean difference of 31.55 μ
+                                                  U/ml representing a 45.9\%...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+<./images/screenshort26.png, id=255, 501.37312pt x 384.6872pt>
+File: ./images/screenshort26.png Graphic file (type png)
+<use ./images/screenshort26.png>
+Package pdftex.def Info: ./images/screenshort26.png  used on input line 660.
+(pdftex.def)             Requested size: 395.98996pt x 303.84671pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+<./images/screenshort27.png, id=264, 661.72218pt x 380.17032pt>
+File: ./images/screenshort27.png Graphic file (type png)
+<use ./images/screenshort27.png>
+Package pdftex.def Info: ./images/screenshort27.png  used on input line 668.
+(pdftex.def)             Requested size: 395.98996pt x 227.50066pt.
+<./images/screenshort30.png, id=265, 575.90157pt x 437.38406pt>
+File: ./images/screenshort30.png Graphic file (type png)
+<use ./images/screenshort30.png>
+Package pdftex.def Info: ./images/screenshort30.png  used on input line 675.
+(pdftex.def)             Requested size: 354.31049pt x 269.09972pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./images/screenshort26.png> <./images/screenshort27.png>]
+<./images/screenshort29.png, id=275, 1056.94875pt x 384.6872pt>
+File: ./images/screenshort29.png Graphic file (type png)
+<use ./images/screenshort29.png>
+Package pdftex.def Info: ./images/screenshort29.png  used on input line 682.
+(pdftex.def)             Requested size: 395.98996pt x 144.12233pt.
+<./images/screenshort28.png, id=276, 1056.94875pt x 384.6872pt>
+File: ./images/screenshort28.png Graphic file (type png)
+<use ./images/screenshort28.png>
+Package pdftex.def Info: ./images/screenshort28.png  used on input line 689.
+(pdftex.def)             Requested size: 375.14705pt x 136.53848pt.
+<./images/screenshort31.png, id=277, 764.8575pt x 589.4522pt>
+File: ./images/screenshort31.png Graphic file (type png)
+<use ./images/screenshort31.png>
+Package pdftex.def Info: ./images/screenshort31.png  used on input line 696.
+(pdftex.def)             Requested size: 395.98996pt x 305.17676pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./images/screenshort30.png> <./images/screenshort29.png> <./images/screenshort28.png>]
+<./images/screenshort32.png, id=288, 752.8125pt x 443.40656pt>
+File: ./images/screenshort32.png Graphic file (type png)
+<use ./images/screenshort32.png>
+Package pdftex.def Info: ./images/screenshort32.png  used on input line 703.
+(pdftex.def)             Requested size: 395.98996pt x 233.24524pt.
+<./images/screenshort33.png, id=289, 752.8125pt x 443.40656pt>
+File: ./images/screenshort33.png Graphic file (type png)
+<use ./images/screenshort33.png>
+Package pdftex.def Info: ./images/screenshort33.png  used on input line 710.
+(pdftex.def)             Requested size: 395.98996pt x 233.24524pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29 <./images/screenshort31.png> <./images/screenshort32.png>]
+<./images/screenshort34.png, id=298, 285.31593pt x 170.13562pt>
+File: ./images/screenshort34.png Graphic file (type png)
+<use ./images/screenshort34.png>
+Package pdftex.def Info: ./images/screenshort34.png  used on input line 717.
+(pdftex.def)             Requested size: 395.98996pt x 236.13214pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./images/screenshort33.png> <./images/screenshort34.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35] (./diabetes_report.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+(./diabetes_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `diabetes_report.out' has not changed.
-(rerunfilecheck)             Checksum: 529D43A352C780636385F6CDF7CD26B2;5804.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `diabetes_report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `diabetes_report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F35B5355ED3ABA65AAD58ADB08F56BFA;10006.
  ) 
 Here is how much of TeX's memory you used:
- 15260 strings out of 469438
- 237779 string characters out of 5468411
- 850425 words of memory out of 5000000
- 43633 multiletter control sequences out of 15000+600000
- 647362 words of font info for 66 fonts, out of 8000000 for 9000
+ 15483 strings out of 469438
+ 245524 string characters out of 5468411
+ 848425 words of memory out of 5000000
+ 43827 multiletter control sequences out of 15000+600000
+ 651107 words of font info for 67 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 69i,12n,83p,3194b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diabetes_report.pdf (18 pages, 116473 bytes).
+ 69i,16n,83p,3194b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diabetes_report.pdf (40 pages, 2624619 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

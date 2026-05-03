@@ -1,0 +1,27 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Raw Descriptive Statistics Output from Data Analysis}}{5}{figure.caption.2}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Raw descriptive missing values analysis}}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Truncated outputs after imputation}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Truncated outputs after imputation}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Detecting outliers using IQR}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Detecting outliers using Z-score method}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Handling outliers using winsorization}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Handling Inconsistencies output}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {9}{\ignorespaces diary of feature engineering}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {10}{\ignorespaces summary statistics output}}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Variable Distributions: Histograms with kernel density estimation (KDE) overlays comparing diabetic (red) and non-diabetic (blue) populations across all numerical features}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Box Plots: Visualization of central tendency and variability, highlighting outliers in insulin and age measurements}}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Correlation Heatmap: Visual representation of pairwise Pearson correlation coefficients among all numerical features, with hierarchical clustering to identify feature groupings}}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {14}{\ignorespaces pairplot visualization: Scatter plots and histograms showing relationships between key features (glucose, BMI, age) and the target variable (Outcome), with color coding for diabetes status}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Feature Engineering Visualization: Distribution characteristics of newly created features including Insulin Resistance Index and categorical binnings}}{15}{figure.caption.16}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Comparative Statistical Summary: Tabular and graphical representation of descriptive statistics comparing diabetic and non-diabetic subpopulations}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Correlation analysis with diabetes outcome}}{16}{figure.caption.18}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Key Insights: Summary of major findings from EDA, including feature importance and potential predictive relationships}}{17}{figure.caption.19}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Model Development Workflow}}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Model Performance Comparison: Comparative analysis of Accuracy, F1-Score, ROC-AUC, and Precision-Recall trade-offs across all seven machine learning models}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Confusion Matrix for Best Model: True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN) visualized for the optimal classifier}}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {22}{\ignorespaces ROC Curves and recall curves}}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Accuracy and F1-Score charts}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {24}{\ignorespaces False positive and false rate}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Gradient Boosting Feature}}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Cross-Validation Results: Performance consistency across folds for the best-performing model, demonstrating stability and generalizability}}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Model Training Summary: Training performance, convergence statistics, and computational efficiency metrics across all evaluated algorithms}}{30}{figure.caption.28}%
